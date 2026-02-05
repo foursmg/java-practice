@@ -2,7 +2,7 @@
 import java.util.Scanner; //first this line
 public class A4_input{
     public static void main(String[] args){
-        Scanner input= new Scanner(System.in);
+        Scanner input= new Scanner(System.in); //and this line imp for input
         System.out.print("Enter your name: ");
         String name= input.nextLine();
         System.out.println("Hey "+name);

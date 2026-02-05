@@ -1,3 +1,4 @@
+// fahrenheit to celsius-> c = (f-32)* 5/9
 import java.util.Scanner;
 public class B8_fahrenheitToCelsius {
     public static void main(String[]args){

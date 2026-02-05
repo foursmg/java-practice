@@ -19,6 +19,7 @@ public class C2_evenOdd {
 
 //Even odd using ternary operator
 //ternary operator-> variable= expression? exprssion2: expression3;
+//if first condition true then expression2 executes else expression3
 //String result=(n%2==0)? "even": "Odd";
 //sout(result);
 
