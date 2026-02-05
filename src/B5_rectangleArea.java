@@ -8,7 +8,8 @@ public class B5_rectangleArea {
         System.out.println("Enter the value of height: ");
         int h=input.nextInt();
         float area= (b*h)/2;
-        //float area= (1/2)*b*h;          here (1/2) will be treated as interger -> 0*b*h=0
+        //float area= (1/2)*b*h;          here 1 and 2 both are int, 1/2=0.5; but since its int it will become 0,
+        //decimal will be discarded, and it will become 0*b*h=0; hence we need to convert it to float
         //float area= (1f/2)*b*h;         this works
         //float area= (float) (0.5*b*h);  this also works
         //double area=  0.5*b*h;          this works too

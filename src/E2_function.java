@@ -4,7 +4,7 @@ public class E2_function {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
 
-        hello();//then call the function
+        hello();//then call the function (ref. line 26)
 
         System.out.println("Enter a name: ");
         String name= input.nextLine();
