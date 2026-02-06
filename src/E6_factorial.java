@@ -15,5 +15,5 @@ public class E6_factorial {
     }
 }
 
-// factorial= n*(n-1)*(n-2)*(n-3).....3*2*1
-// eg 5!= 5*4*3*2*1
+// factorial= n!=  n*(n-1)*(n-2)*(n-3).....3*2*1
+// eg 5!= 5*4*3*2*1 =120
