@@ -1,6 +1,6 @@
 //LCM of two integer
 import java.util.Scanner;
-public class E11_lcm {
+public class EA10_lcm {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
         System.out.println("Enter the first number: ");
