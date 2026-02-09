@@ -8,7 +8,7 @@ public class EA10_lcm {
         System.out.println("Enter the first number: ");
         int b= input.nextInt();
         int i=1; // if we put this i inside loop after each iteration it will set to 1
-        while(true){  //ref. line 44
+        while(true){  //ref. line 45
             int factor= a*i;
             if(factor%b==0){
                 System.out.println("LCM :"+factor);
@@ -25,8 +25,8 @@ given number.
 
 lcm(4,5)- 20, 20 is divisible by both 4 and 5 and its smallest common number
 more detailed(only for visualization and understanding):-
-                4- multiple of 4: 4  8 12 16 (20) 24 28 32  36  40 44......
-                5- multiple of 5: 5 10 15 (20) 25 30 35 40 45 50.......
+                4- multiple of 4: 4  8 12 16 (20) 24 28 32  36  (40) 44......
+                5- multiple of 5: 5 10 15 (20) 25 30 35 (40) 45 50.......
                 here we can see 20 is common in both and no other number smaller than 20 is common
                 next common is 40 but here we are taking only smallest common
 
