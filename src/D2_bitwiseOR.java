@@ -2,10 +2,11 @@ import java.util.Scanner;
 public class D2_bitwiseOR{
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
+        int a,b;
         System.out.println("Enter the value of A: ");
-        int a= input.nextInt();
+        a= input.nextInt();
         System.out.println("Enter the value of B: ");
-        int b= input.nextInt();
+        b= input.nextInt();
         int bitwiseOR= a | b;
         System.out.println(a+" | "+b+" = "+bitwiseOR);
     }

@@ -13,6 +13,7 @@ public class D5_leftShiftOperator{
 
 // left shift operator shifts the bits to 1 place or specified place to left
 // i.e.:- 3=0011 after 1 left shift(<<1) output= 0110=9
+//right most bits are filled with 0
 // another example
 
 //input= 11  left shift(<<3)

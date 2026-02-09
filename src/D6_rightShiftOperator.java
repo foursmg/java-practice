@@ -10,6 +10,12 @@ public class D6_rightShiftOperator {
 }
 //Same as left shift but in right
 
+// a=4 sift 1 -> a>>1; -> 100 -> 010 -> 2;
+// a=4 sift 2 -> a>>2; -> 100 -> 001 -> 1;
+// a=4 sift 3 -> a>>3; -> 100 -> 000 -> 0;
+
+
+
 /*
 right shift operator for number A and position n
  import java.util.Scanner;
