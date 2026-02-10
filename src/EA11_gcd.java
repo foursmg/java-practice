@@ -1,3 +1,4 @@
+// GCD/HCF of two numbers
 import java.util.Scanner;
 public class EA11_gcd {
     public static void main(String[]args){
