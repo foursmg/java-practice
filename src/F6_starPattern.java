@@ -12,6 +12,7 @@ public class F6_starPattern {
             for(k=0;k<=i;k++){
                 System.out.print("*");
             }
+
             System.out.print("\n"); // moves to new line/row
         }
     }
@@ -24,6 +25,17 @@ public class F6_starPattern {
   ***
  ****
 *****
+
+*/
+
+/*
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * * for this one put a space before of after * in print statement of line 13
+           //System.out.print(" *");
 
 */
 
