@@ -1,4 +1,4 @@
-public class F10_starPattern {
+public class FA10_starPattern {
     public static void main(String[]args){
         int i,j,k;
 

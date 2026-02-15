@@ -1,4 +1,4 @@
-public class F12_printAlphabet {
+public class FA12_printAlphabet {
     public static void main(String[]args){
 
         //1st method creating a character varibale, assiginig it an alphabet

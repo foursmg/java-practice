@@ -1,4 +1,4 @@
-public class F15_alphabetPattern {
+public class FA15_alphabetPattern {
     public static void main(String[]args){
         int i,j;
         char letter= 'A';

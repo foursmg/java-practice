@@ -1,4 +1,4 @@
-public class F13_alphabetPattern {
+public class FA13_alphabetPattern {
     public static void main(String[]args){
        // char letter='A'; //if initialized here output:- A BC DEF GHIJ KLMNO
         int i,j;

@@ -1,4 +1,4 @@
-public class F11_starPattern {
+public class FA11_starPattern {
     public static void main(String[]args){
         int i,j;
         for(i=0;i<5;i++){

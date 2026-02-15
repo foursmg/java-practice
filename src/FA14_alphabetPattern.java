@@ -1,4 +1,4 @@
-public class F14_alphabetPattern {
+public class FA14_alphabetPattern {
     public static void main(String[]args){
         int i,j;
         for(i=0;i<5;i++){
