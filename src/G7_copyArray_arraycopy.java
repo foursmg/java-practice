@@ -17,3 +17,15 @@ public class G7_copyArray_arraycopy {
 
     }
 }
+
+/*
+
+System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);
+
+src - source array you want to copy
+srcPos - starting position (index) in the source array
+dest - destination array where elements will be copied from the source
+destPos - starting position (index) in the destination array
+length - number of elements to copy
+
+*/
