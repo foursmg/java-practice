@@ -1,3 +1,5 @@
+//copying elements of one array into another
+//Reference copy
 public class G5_copyArrayAssignmentOperator {
     public static void main(String[]args){
 
