@@ -4,7 +4,7 @@
 // step2- create new array of that size
 // step3- copy only required elements
 import java.util.Arrays;
-public class GA12_arrayDeleteSpecificeEement {
+public class GA13_arrayDeleteSpecificeEement {
     public static void main(String[]args){
         int[] numA = {1,2,3,4,2,6,2,7};
 
