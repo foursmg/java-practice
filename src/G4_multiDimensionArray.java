@@ -35,3 +35,6 @@ public class G4_multiDimensionArray {
 
     }
 }
+//in 2-d array
+// arr.length -> number of rows
+// arr[i].length -> elements in that particular row
