@@ -1,5 +1,5 @@
 // Compound Interest = P*(1+r/100)^T; this formula gives amount-> principle+interest earned
-// Actual compound interest= Amount- princple
+// Actual compound interest= Amount- principle
 
 import java.util.Scanner;
 public class B7_compoundInterest{
@@ -19,10 +19,11 @@ public class B7_compoundInterest{
 
         //Compound Interest
         //float amount= ciAmount-p; this would produce error as ciAmount is double and we have declared amount float
-        double amount= ciAmount-p; //this would work
+        double ci= ciAmount-p; //this would work
         //float amount= (float)ciAmount-p; this would also work
-        System.out.println("Compound Interest is: "+amount);
+        System.out.println("Compound Interest is: "+ci);
     }
 }
 // a^b= Math.pow(a,b)
 //Math.pow(a,b) always returns double
+//always use double datatype when using Math.pow(a,b)

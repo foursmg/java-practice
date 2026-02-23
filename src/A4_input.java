@@ -25,7 +25,10 @@ public class A4_input{
         System.out.print("Enter a long: ");// when value is very large
         double num= input.nextDouble();
 
-        System.out.print("Enter a double: ");// for decimal number
+        System.out.print("Enter a float number: ");//decimal number
+        float fNum= input.nextFloat();
+
+        System.out.print("Enter a double: ");// for big decimal number
         double dNum= input.nextDouble();
 
         System.out.print("Enter a boolean: "); //boolean can be only true or false

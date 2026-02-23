@@ -39,6 +39,7 @@ public class B1_swapTwoNum {
 /*
 
 revisit this after function topic
+swap using function-
 
 public class SwapDemo {
 

@@ -4,22 +4,25 @@ public class C2_evenOdd {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n= input.nextInt();
-        if(n%2==0)
+        if(n==0){
+            System.out.print("Entered Number is Zero.");
+        }else if(n%2==0){
+            System.out.print("Even");
+        }else
         {
-            System.out.println(n+" is an even number.");
-        }
-        else
-        {
-            System.out.println(n+" is an odd number. ");
+            System.out.print("Odd");
         }
 
 
     }
 }
 
-//Even odd using ternary operator
+
 //ternary operator-> variable= expression? exprssion2: expression3;
 //if first condition true then expression2 executes else expression3
+
+//Even odd using ternary operator
+
 //String result=(n%2==0)? "even": "Odd";
 //sout(result);
 
