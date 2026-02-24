@@ -53,3 +53,26 @@ gcd(3,13) = 3 -> 2
 
 
 */
+
+/*
+
+public class main{
+    public static void main(String[]args){
+        int a=3, b=51;
+
+        //finding the smaller number
+        int num= a>b? b: a;
+
+        //gcd
+        int i=1;
+        int gcd=1; //initializing gcd=1, since any number have always 1 as their divisor, even if they are co-prime
+        while(i<=num){
+            if(a%i==0 && b%i==0){
+                gcd = i;
+            }i++;
+        }
+        System.out.print(gcd);
+    }
+}
+
+*/

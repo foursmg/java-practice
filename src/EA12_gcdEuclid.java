@@ -10,7 +10,7 @@ public class EA12_gcdEuclid {
         System.out.println("GCD: "+gcdEuclid(a,b));
     }
     public static int gcdEuclid(int a,int b){
-        while(b!=0){
+        while(b!=0){          // how to choose which var or num we shall check for 0(Rule- whichever number is becoming reminder, that will become 0)
             int rem= a%b;
             a=b;
             b=rem;
@@ -42,7 +42,7 @@ GCD(18,12)- 12)18(1
                12
               =6)12(2
                  12
-                =o
+                =0
               GCD=6
 
 GCD(18,12) -> a=18 b=12
