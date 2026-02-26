@@ -28,3 +28,33 @@ examples: 2,3,5,7,11,13,17...........
 Note: 1 is not prime number nor is negative numbers(base condition in above code)
 
  */
+
+/*
+Using function-
+
+public class primeNum{
+    public static void main(String[]args){
+        int n=7;
+       // boolean prime = primeNum(n);
+        if(primeNum(n)==true){
+            System.out.print(n+" is a prime Number.");
+        }else
+        {
+            System.out.print(n+" is not a prime Number.");
+        }
+    }
+    public static boolean primeNum(int n){
+        if(n<=1){
+            return false;
+        }
+        int i=2;
+        while(i<n){
+            if(n%i==0){
+                return false;
+            }i++;
+        }
+        return true;
+    }
+}
+
+*/

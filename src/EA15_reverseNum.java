@@ -14,3 +14,27 @@ public class EA15_reverseNum {
         System.out.println("Reverse: "+rNum);
     }
 }
+
+
+/*
+Using Function-
+public class reverseNum{
+    public static void main(String[]args){
+        int num=12345;
+        int rNum= reverseNum(num);
+        System.out.print(rNum);
+    }
+    public static int reverseNum(int n){
+        int reverse = 0;
+        while(n>0){
+            int rem = n%10;
+            reverse = reverse*10 + rem;
+            n = n/10;
+        }
+        return reverse;
+    }
+}
+
+
+
+ */
