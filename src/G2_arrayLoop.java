@@ -3,7 +3,7 @@ public class G2_arrayLoop {
 
         int[] age={23,45,67,89,87,65};
 
-        //arr.length = lenth of array int value
+        //arr.length = length of array (int value)
         //looping through array
         for(int i=0;i<age.length;i++){
             System.out.println(age[i]+" ");
