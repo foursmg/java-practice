@@ -18,7 +18,7 @@ public class G8_copyArray_copyOfRange {
 
 Arrays.copyOfRange(orignalArray, fromIndex(inclusive), toIndex(exclusive));
 
-Note:- from index is inclusive meaning it will copy that index element but
+Note:- fromindex is inclusive meaning it will copy that index element but
        toIndex is exclusive meaning it's index element won't be included
        i.e. [5,8), index 5,6,7 will be included but not index 8 element
 

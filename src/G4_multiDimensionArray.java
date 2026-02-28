@@ -21,8 +21,8 @@ public class G4_multiDimensionArray {
         System.out.println("Number of rows in an array: "+c.length);
 
         //calculate length/elements of particular row
-        System.out.println("Number of element in 2nd row: "+c[1].length);
-        System.out.println("Number of element in 3rd row: "+c[2].length);
+        System.out.println("Number of element in 2nd row: "+c[0].length);
+        System.out.println("Number of element in 3rd row: "+c[1].length);
 
         System.out.println(c[1][1]);
 

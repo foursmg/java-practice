@@ -49,6 +49,7 @@ for(int i = 1; i < num.length; i++){
 */
 
 /*
+________________________________________________________________________________________________________________________
 
 public class MinMax{
     public static void main(String[]args){
@@ -70,5 +71,63 @@ public class MinMax{
 
     }
 }
+________________________________________________________________________________________________________________________
+*/
+
+/*
+________________________________________________________________________________________________________________________
+
+public class array{
+    public static void main(String[]args){
+         int[] arr= {14,53,75,34,67,2,33,3533};
+         int min=arr[0];
+         int max=arr[0];
+         for(int i=0;i<arr.length-1;i++){
+             if(max<arr[i+1]){
+                 max=arr[i+1];
+             }
+             if(min>arr[i+1]){
+                 min = arr[i+1];
+             }
+         }
+         System.out.println("Max Element in the array: "+max);
+         System.out.println("Min Element in the array: "+min);
+    }
+}
+
+________________________________________________________________________________________________________________________
+ */
+
+/*
+________________________________________________________________________________________________________________________
+
+finding min max using function
+
+public class array{
+    public static void main(String[]args){
+         int[] arr= {14,53,75,34,67,2,33,3533};
+         minmax(arr);
+
+    }
+    public static void minmax(int[] arr){
+        int max=arr[0];
+        int min=arr[0];
+        for(int i=1;i<arr.length;i++){
+            if(max<arr[i]){
+                max= arr[i];
+            }
+            if(min>arr[i]){
+                min=arr[i];
+            }
+        }
+        System.out.println("Min: "+min);
+        System.out.print("Max: "+max);
+    }
+}
+
+Note:- Since we have already used a[0] we can start traversing array from i=1;
+       No need for (i+1) later in program;
+
+________________________________________________________________________________________________________________________
 
 */

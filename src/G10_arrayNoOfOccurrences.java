@@ -67,3 +67,59 @@ public class occurrences{
 
 
 */
+
+
+
+/*
+______________________________________________________________________________________________________________________
+Note- Function Should compute and return,
+      main() should print
+      this makes code reusable;
+
+Note- Local variable must be initialized, e.g.:  in below case first=-1,last=-1;
+      why -1; -1 -> clearly "Not found"
+           0;  0 -> confusing for 1-based index
+Note- for indices:- int first=-1; int last=-1;
+
+______________________________________________________________________________________________________________________
+
+
+
+Program for searching the number of occurrence of an element in an array, using function.
+
+public class array{
+    public static void main(String[]args){
+        int[] arr= {1,2,3,4,5,6,7,8,9,2};
+        int key=2;
+        int occ= occurrence(arr,key);
+        if(occ==0){
+            System.out.print("Element Not Found!!");
+        }else
+        {
+            System.out.print("Element Found, Number of Occurrence: "+occ);
+        }
+    }
+    public static int occurrence(int[] num,int key){
+        int first=-1,last=-1,count=0;
+        for(int i=0;i<num.length;i++){
+            if(num[i]==key){
+                if(first==-1){
+                    first=i+1;
+                }
+                last=i+1;
+                count++;
+            }
+        }
+        if(count>0){
+            System.out.println("First Occurrence: "+first);
+            System.out.println("Last occurrence: "+last);
+        }
+        return count;
+    }
+}
+
+
+
+
+
+*/
