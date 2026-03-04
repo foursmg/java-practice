@@ -1,3 +1,4 @@
+//Linear Search
 //Program for number of occurrence of an element in an array/ Not Binary search(binary search uses sorted array);
 import java.util.Scanner;
 import java.util.Arrays;
@@ -43,6 +44,8 @@ public class G10_arrayNoOfOccurrences {
 
 
 /*
+________________________________________________________________________________________________________________________
+
 A simpler version without taking any input from user
 
 public class occurrences{
@@ -65,7 +68,7 @@ public class occurrences{
     }
 }
 
-
+________________________________________________________________________________________________________________________
 */
 
 
@@ -85,7 +88,7 @@ ________________________________________________________________________________
 
 
 
-Program for searching the number of occurrence of an element in an array, using function.
+Program for searching the number of occurrence of an element in an array, and position of first and last occurrence using function.
 
 public class array{
     public static void main(String[]args){
@@ -119,7 +122,42 @@ public class array{
 }
 
 
+________________________________________________________________________________________________________________________
 
+//Number of occurrence of key in an array, first position, last position, 2nd last position
 
+public class array{
+    public static void main(String[]args){
+        int[] arr= {1,2,3,2,3,2,3,2,3,2,3};
+        int key=2;
+        int occ= occurrence(arr,key);
+        if(occ>0){
+            System.out.print("Number of occurrence: "+occ);
+        }else
+        {
+            System.out.print("Element Not Found in the array!");
+        }
+
+    }
+    public static int occurrence(int[] arr,int key){
+        int first=-1,last=-1,count=0,slast=-1;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==key){
+                if(first==-1){
+                    first=i+1;
+                }
+                slast=last;
+                last=i+1;
+                count++;
+            }
+        }
+        if(count>0){
+            System.out.println("First element found at: "+first);
+            System.out.println("SLast element found at: "+slast);
+            System.out.println("Last element found at: "+last);
+        }
+        return count;
+    }
+}
 
 */
