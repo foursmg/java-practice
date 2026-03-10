@@ -27,5 +27,8 @@ public class BA1_switchInt {
             default:
                 System.out.println("Invalid Input.");
         }
+
+
+
     }
 }
