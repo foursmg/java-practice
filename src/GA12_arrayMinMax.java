@@ -1,7 +1,7 @@
 //finding max and min element in the array
 import java.util.Scanner;
 import java.util.Arrays;
-public class GA11_arrayMinMax {
+public class GA12_arrayMinMax {
     public static void main(String[]args){
 
         Scanner input = new Scanner(System.in);

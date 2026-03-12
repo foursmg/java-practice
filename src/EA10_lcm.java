@@ -42,9 +42,13 @@ lcm(3,13)- 3:3
 (for visualization only): 3: 3 6 9 12 15 18 21 24 27 30 33 36 (39) 42 .....
                           13: 13 26 (39) 52 65.............
 
+------------------------------------------------------------------------------------------------------------------------
+
 the loop has been given condition always 'true' because from above example we can understand
 give any two positive number it will definitely have a lcm hence we can keep it running till we find and then break
 out of the loop
+
+------------------------------------------------------------------------------------------------------------------------
 
 loop example,- a= 12 b=18 i=1;
 1st iteration - a= 12 b=18 i=1;
@@ -60,6 +64,8 @@ loop example,- a= 12 b=18 i=1;
                 if(38%18==0) satisfied
                 return/print factor i.e.= 36 = lcm
                 break;
+
+------------------------------------------------------------------------------------------------------------------------
 
 using function:-
 import java.util.Scanner;

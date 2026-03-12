@@ -2,13 +2,13 @@
 public class B1_swapTwoNum {
     public static void main(String[] args){
 
-        //using 3rd variable
+        //using 3rd variable, creating a variable to store variable temporarily
         int a=6,b=7;
-        int c;
+        int temp;
         System.out.println("Before swap- A: "+a+" B: "+b);
-        c=a;
+        temp=a;
         a=b;
-        b=c;
+        b=temp;
         System.out.println("After swap- A: "+a+" B: "+b);
 
         //without using 3rd variable

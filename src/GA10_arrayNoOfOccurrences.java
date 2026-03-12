@@ -2,7 +2,7 @@
 //Program for number of occurrence of an element in an array/ Not Binary search(binary search uses sorted array);
 import java.util.Scanner;
 import java.util.Arrays;
-public class G10_arrayNoOfOccurrences {
+public class GA10_arrayNoOfOccurrences {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
 

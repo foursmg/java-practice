@@ -11,7 +11,8 @@ public class B2_operators {
         System.out.println(a+" * "+b+" = "+(a*b));
         System.out.println(a+" / "+b+" = "+(a/b));
         System.out.println(a+" % "+b+" = "+(a%b));
-    //Important: a%b = a modulus b = gives remainder when a is divided by b
+
+        //Important: a%b = a modulus b = gives remainder when a is divided by b
     // 24%3= 0; Dividend=24, Divisor= 3, Quotient=8, Remainder=0;
     //if we want Quotient a/b= 24/3=8;
     //if we want Remainder a%b= 23%3= 0;
