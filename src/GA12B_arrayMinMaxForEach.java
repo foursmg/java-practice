@@ -1,5 +1,5 @@
 //finding max element in an array using for-each loop
-public class GA13_arrayMinMaxForEach {
+public class GA12B_arrayMinMaxForEach {
     public static void main(String[]args){
         int[] arr= {12,342,46,76,433,56,764,34};
         int max=arr[0];

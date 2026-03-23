@@ -28,4 +28,35 @@ for String comparison in java, always use .equals()
 .equals returns boolean value
 
 
+using function-
+
+import java.util.Scanner;
+public class passwordCheck{
+    public static void main(String[]args){
+        Scanner input = new Scanner(System.in);
+        String password= "abc@12345";
+        boolean access = pass(password);
+        if(access){
+            System.out.print("Access Granted!");
+        }else{
+            System.out.print("Access Denied!");
+        }
+    }
+    public static boolean pass(String password){
+        Scanner input = new Scanner(System.in);   //In Java, variables created inside a method cannot be used in
+        //another method unless you pass them as parameters or create them again.
+        String temp;
+        do{
+            System.out.print("Enter the Password: ");
+            temp = input.nextLine();
+            if(temp.equals(password)){
+                return true;
+            }
+        }while(!temp.equals(password));
+        return false; //this required
+        //must always return a boolean value, but if the loop somehow exits, Java still requires a return.
+    }
+}
+
+
 */

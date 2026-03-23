@@ -35,3 +35,24 @@ fibo -> a sequence where each number is the sum of the two preceding ones, start
         Loop in needed to print a series
 
 */
+
+
+/*
+without recursion
+
+public class fibo{
+    public static void main(String[]args){
+        int n=8;
+        int i=0;
+        int fnum=0,lnum=1;
+        while(i<n){
+            int num = fnum;
+            System.out.print(num+" ");
+            fnum=lnum;
+            lnum= num+fnum;
+            i++;
+        }
+    }
+}
+
+ */

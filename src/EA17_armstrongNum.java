@@ -5,7 +5,7 @@ public class EA17_armstrongNum {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a Number: ");
         int originalNum= input.nextInt();
-        int temp= originalNum;
+        int temp= originalNum; //this temp will be used for checking num, why??? ref line 50
         int num=originalNum;
 
         //checking the number of digit in the number using loop
@@ -45,6 +45,11 @@ e.g. : 153 is an armstrong number -> 1^3 + 5^3 + 3^3 = 3+125+27 = 153
     5-digit- 54748,92727,93084
     6-digit- 548834
     ......
+
+
+the value of original number is stored in temp var and that temp var is used to count the number of digits in that
+number, while counting digits at the end of loop that num becomes 0. and since after creating armstrong function we need
+original value to check weather both are same or not,
 
 
 

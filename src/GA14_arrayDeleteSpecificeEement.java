@@ -4,17 +4,17 @@
 // step2- create new array of that size
 // step3- copy only required elements
 import java.util.Arrays;
-public class GA13_arrayDeleteSpecificeEement {
+public class GA14_arrayDeleteSpecificeEement {
     public static void main(String[]args){
         int[] numA = {1,2,3,4,2,6,2,7};
 
         //specific element to be deleted
-        int x=2;
+        int key=2;
 
-        //finding the size of array
+        //finding the size of array without its key
         int count=0;
         for(int i=0;i<numA.length;i++){
-            if(numA[i]!=x){
+            if(numA[i]!=key){
                 count++;
             }
         }
@@ -25,7 +25,7 @@ public class GA13_arrayDeleteSpecificeEement {
         //copying elements into new Array
         int index=0;
         for(int i=0;i<numA.length;i++){
-            if(numA[i]!=x){
+            if(numA[i]!=key){
                 numB[index]=numA[i];
                 index++;
             }

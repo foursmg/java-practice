@@ -4,7 +4,7 @@ public class FA12_printAlphabet {
         //1st method creating a character varibale, assiginig it an alphabet
         // charater are assigined in quote 'a' 'b' 'x' etc....
         char ch;
-        for(ch='A';ch<'Z';ch++)
+        for(ch='A';ch<='Z';ch++)
         {
             System.out.print(ch+" ");
         }
