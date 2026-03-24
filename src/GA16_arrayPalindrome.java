@@ -1,6 +1,6 @@
 //program for palindrome number, palindrome number reverse=original same, eg 121 1331 15651 etc
 import java.util.Arrays;
-public class GA15_arrayPalindrome {
+public class GA16_arrayPalindrome {
     public static void main(String[]args){
         int[] numA= {1,2,3,4,5,6,7,8,9}; // {1,2,3,4,5,4,3,2,1}
         int[] numB= new int[numA.length];
@@ -25,3 +25,29 @@ public class GA15_arrayPalindrome {
         }
     }
 }
+
+
+/*
+
+import java.util.Arrays;
+public class reverse{
+    public static void main(String[]args){
+        int[] arr = {1,2,3,2,1};
+        int[] nums = new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            nums[i] = arr[arr.length-i-1];
+        }
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(nums));
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]!=nums[i]){
+                System.out.print("Not a Palindrome!");
+                return;
+            }
+        }
+        System.out.println("Palindrome Array.");
+    }
+}
+
+
+ */
