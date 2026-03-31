@@ -1,3 +1,4 @@
+//Skip H3 H4 H5, Do H6 and H7 methods instead
 public class H5_stringBuffer {
     public static void main(String[]args){
 

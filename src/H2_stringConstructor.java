@@ -1,4 +1,4 @@
-public class H1_stringConstructor {
+public class H2_stringConstructor {
     public static void main(String[]args){
 
         // 6 main String Constructor
