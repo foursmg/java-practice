@@ -5,6 +5,8 @@ public class A1_helloWorld{
         //use sout for quick print function(type sout in empty line/newline- hit enter)
         System.out.print("hello");
         System.out.println("World");
+
+
     }
 }
 
