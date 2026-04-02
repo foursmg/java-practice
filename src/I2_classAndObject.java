@@ -7,7 +7,7 @@ class Pen{ //Class Name
         System.out.println("Writing something...");
     }
 
-    //this.-Refer to the current class’s instance variables and methods
+    //this.- Refer to the current class’s instance variables and methods
    //with help of 'this' keyword it will know which object is calling it
     public void printColour(){
         System.out.println(this.colour);
