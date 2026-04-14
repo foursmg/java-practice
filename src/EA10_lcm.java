@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class EA10_lcm {
     public static void main(String[]args){
         Scanner input= new Scanner(System.in);
+
         System.out.println("Enter the first number: ");
         int a= input.nextInt();
         System.out.println("Enter the first number: ");
         int b= input.nextInt();
+
         int i=1; // if we put this i inside loop after each iteration it will set to 1
         while(true){  //ref. line 45
             int factor= a*i;

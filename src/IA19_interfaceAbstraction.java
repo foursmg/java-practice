@@ -8,7 +8,7 @@ interface Bags{
     // Interface can have concrete methods using default and static (Java 8+)
     //Interface methods are implicitly public
     //default method in interface is public — overriding it without public
-    // makes it package-private (narrower).
+    // makes it package-private (narrower)., (ref. line 37)
     default void BagMaterial(){    //concrete method using default
         System.out.println("Made of Good material.");
     }

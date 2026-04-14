@@ -17,12 +17,12 @@ public class B5_rectangleArea {
 }
 
 
-//float area= (1/2)*b*h;          here 1 and 2 both are int, 1/2=0.5; but since its int it will become 0,
-//decimal will be discarded, and it will become 0*b*h=0; hence we need to convert it to float
+//float area= (1/2)*b*h;          here 1 and 2 both are int, 1/2=0 (Not 0.5);
+//and it will become 0*b*h=0; hence we need to convert it into float
 
 //float area= (1f/2)*b*h;         this works
 //float area= (float) (0.5*b*h);  this also works
-//double area=  0.5*b*h;          this works too
+//double area=  0.5*b*h;          this works too (0.5 is double literal, So Java does floating-point multiplication)
 //float area= 0.5f*b*h;           this too
 //float area= (float)1/2*(l*b);   this one also
 //float area= (b*h)/2;            works

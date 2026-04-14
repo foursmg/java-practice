@@ -59,4 +59,31 @@ public class passwordCheck{
 }
 
 
+
+
+import java.util.Scanner;
+public class password{
+    public static void main(String[]args){
+        Scanner input = new Scanner(System.in);
+        String password = "abc@12345";
+        passWord(password);
+    }
+    public static void passWord(String password){
+        Scanner input = new Scanner(System.in);
+        String pass;
+        System.out.print("Enter your Password: ");
+        int count=0;
+        do{
+                pass = input.nextLine();
+           if(pass.equals(password)){
+               System.out.print("Access Granted!");
+               return;
+           }else
+           {
+               System.out.print("Enter the password again: ");
+           }
+        }while(!pass.equals(password));
+    }
+}
+
 */

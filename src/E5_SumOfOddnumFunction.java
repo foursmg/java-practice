@@ -42,3 +42,27 @@ public class E5_SumOfOddnumFunction {
     }
 }
 */
+
+/*
+
+Using For loop:-
+
+public class oddsum{
+    public static void main(String[]args){
+        int n= 5;
+        oddSum(n);
+        int sumOdd = oddSum(n);
+        System.out.print("Sum: "+sumOdd);
+    }
+    public static int oddSum(int n){
+        int sum=0;
+       for(int i=1;i<=n;i+=2){
+           sum = sum + i;
+       }
+        return sum;
+    }
+}
+
+
+
+*/
