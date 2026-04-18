@@ -82,4 +82,37 @@ public class sorted{
 
 */
 
+/*
+program to check array sorted or not and also tells order type (Ascending/Descending)
 
+public class array{
+    public static void main(String[]args){
+        int[] arr = {9,9,9,7,65,5,4,3,2,1};
+        sorted(arr);
+    }
+    public static void sorted(int[] nums){
+        boolean asc = true;
+        boolean des = true;
+        for(int i=0; i<nums.length-1;i++){
+            if(nums[i]> nums[i+1]){
+                asc = false;
+            }
+            if(nums[i]<nums[i+1]){
+                des = false;
+            }
+        }
+        if(asc){
+            System.out.print("Sorted Array: Ascending Order.");
+        }else if(des){
+            System.out.print("Sorted Array: Descending Order.");
+        }else{
+            System.out.print("Array Not in any Order.");
+        }
+    }
+}
+
+
+
+
+
+ */

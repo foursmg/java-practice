@@ -1,8 +1,8 @@
 public class FA12_printAlphabet {
     public static void main(String[]args){
 
-        //1st method creating a character varibale, assiginig it an alphabet
-        // charater are assigined in quote 'a' 'b' 'x' etc....
+        //1st method creating a character variable, assigning it an alphabet
+        // character are assigned in quote 'a' 'b' 'x' etc....
         char ch;
         for(ch='A';ch<='Z';ch++)
         {

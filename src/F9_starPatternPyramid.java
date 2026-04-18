@@ -1,4 +1,4 @@
-public class F9_starPatternPyramid {
+ public class F9_starPatternPyramid {
     public static void main(String[]args){
         int i,j,k;
         for(i=0;i<5;i++){
