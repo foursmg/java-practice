@@ -17,6 +17,8 @@ class Pen{ //Class Name
 public class I2_classAndObject {
     public static void main(String[]args){
         Pen pen1= new Pen(); //pen1 object of class Pen
+        // Pen is name of class, pen1 is reference variable
+        // new -> allocates memory in heap, Pen() -> constructor is called, it initializes the new object.
 
         //Accessing/modifying attribute of class using dot syntax(.)
         pen1.colour="blue";

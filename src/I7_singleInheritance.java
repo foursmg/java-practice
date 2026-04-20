@@ -1,3 +1,4 @@
+// Inheritance IS-A relationship
 //1st class also the super or parent class
 class Animals{
     void eat(){
