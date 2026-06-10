@@ -25,5 +25,5 @@ public class B5_rectangleArea {
 //double area=  0.5*b*h;          this works too (0.5 is double literal, So Java does floating-point multiplication)
 //float area= 0.5f*b*h;           this too
 //float area= (float)1/2*(l*b);   this one also
-//float area= (b*h)/2;            works
+//float area= (float)(b*h)/2;            works
 

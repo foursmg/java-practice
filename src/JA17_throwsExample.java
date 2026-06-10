@@ -17,7 +17,7 @@ class ReadAndWrite{
 
 }
 
-public class JA11_throwsExample {
+public class JA17_throwsExample {
     public static void main(String[]args){
         ReadAndWrite rw = new ReadAndWrite();
 

@@ -27,6 +27,10 @@ class Calculator{
         System.out.println("1");
     }
 
+    String add(int x, String y){
+        return x+y;
+    }
+
 }
 
 public class IA14_polymorphism_compile_time {
@@ -52,6 +56,13 @@ public class IA14_polymorphism_compile_time {
         //it is passing a single parameter char 'a', but the method with single parameter
         //has parameter defined int not char but still that method is being accessed
         //Reason type promotion.
+
+        System.out.println(c1.add(3,'8'));  // 59 ////first method is being called
+        // char '8' automatically converted to ASCII 56
+
+        System.out.println(c1.add(3,"8"));  //38
+
+
     }
 }
 

@@ -1,4 +1,4 @@
-public class J9_throwExample {
+public class JA12_throwExample {
     public static void main(String[]args){
 
         System.out.println("1,2,3,4");

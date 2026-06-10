@@ -9,7 +9,7 @@ public class FA12_printAlphabet {
             System.out.print(ch+" ");
         }
         System.out.print("\n");
-        for(ch='a';ch<'z';ch++)
+        for(ch='a';ch<='z';ch++)
         {
             System.out.print(ch+" ");
         }

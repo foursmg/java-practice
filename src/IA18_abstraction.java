@@ -50,6 +50,7 @@ public class IA18_abstraction {
     public static void main(String[]args){
 
         Automobile a; //Parent reference (Upcasting)
+                      // it only creates a reference variable of type Automobile
                       //**Method call is resolved at runtime, Based on actual Object(Jeep/Scooter)
                       //This is Dynamic Method Dispatch
 
@@ -177,5 +178,119 @@ each object has its own copy of instance variable
 
 */
 
+/*
+abstract class vehicle{
 
+    //Abstract methods (only declaration)
+    abstract void start();
+
+    abstract void braks();
+
+    abstract void wheel();
+
+    //Concrete methods (full implementation)
+    void show(String vehicle){
+        System.out.println("Vehicale is: "+vehicle);
+    }
+}
+
+class car extends vehicle{
+
+    @Override
+    void start(){
+        System.out.println("CArs start");
+    }
+
+    @Override
+    void braks(){
+        System.out.println("Car have Break Paddle");
+    }
+
+    @Override
+    void wheel(){
+        System.out.println("Cars have 4 wheels");
+    }
+
+}
+
+class bike extends vehicle{
+    @Override
+    void start(){
+        System.out.println("Bike Starts with a kick or self");
+    }
+
+    @Override
+    void braks(){
+        System.out.println("Bike Have leaver for break");
+    }
+
+    @Override()
+    void wheel(){
+        System.out.println("Bike Have 2 Wheels");
+    }
+
+    @Override
+    void show(String vehicle){
+        super.show(vehicle);    //It calls parent version
+        System.out.println("Bike are fun to ride");
+    }
+}
+
+class racecar extends car{
+
+    //method overriding, This replaces parent behavior.
+    @Override
+    void braks(){
+        System.out.println("race Cars have Very Good breaks");
+    }
+
+}
+
+public class Main{
+    public static void main(String[]args){
+
+
+        // Dynamic method dispatch method
+        // Run time polymorphism
+        vehicle x;      //creates a parent reference variable
+        x= new car();   //Dynamic method dispatch
+
+        x.start();     //Java checks actual object at runtime
+        x.show("Honda Car");
+
+        x= new bike();
+        x.start();
+        x.show("Yamaha");
+
+        x= new racecar();
+        x.wheel();
+        x.braks();
+
+
+        //Normal Object creation, No polymorphism invilved
+        car c1 = new car();
+        c1.wheel();
+        c1.show("Ford");
+
+
+    }
+}
+
+
+
+OUTPUT:-
+CArs start
+Vehicale is: Honda Car
+Bike Starts with a kick or self
+Vehicale is: Yamaha
+Bike are fun to ride
+Cars have 4 wheels
+race Cars have Very Good breaks
+Cars have 4 wheels
+Vehicale is: Ford
+
+
+
+
+ */
 
