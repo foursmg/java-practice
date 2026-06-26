@@ -25,10 +25,10 @@ public class A4_input{
         System.out.print("Enter a long: ");// when value is very large
         double num= input.nextDouble();
 
-        System.out.print("Enter a float number: ");//decimal number
+        System.out.print("Enter a float number: ");//decimal number, 7 digit after decimal, last digit is kept same
         float fNum= input.nextFloat();
 
-        System.out.print("Enter a double: ");// for big decimal number
+        System.out.print("Enter a double: ");// for big decimal number, 15 digit after decimal, last digit is increased by 1
         double dNum= input.nextDouble();
 
         System.out.print("Enter a boolean: "); //boolean can be only true or false
@@ -36,7 +36,7 @@ public class A4_input{
 
         System.out.print("Enter a character: ");
         char grade= input.next().charAt(0);
-        //next() takes the word -> chartAt(0) reads the first character of that word
+        //next() takes the word -> chartAt(0) reads the first character of that word  // Accept Number also
 
         System.out.println(n);
         System.out.println(word);

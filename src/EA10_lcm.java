@@ -94,3 +94,54 @@ public class lcm{
     }
 }
  */
+
+/*
+Using for Loop
+
+public class Main{
+    public static void main(String[]args){
+        int a= 4, b = 6;
+        int Num = a>b ? a : b;
+        System.out.println("Bigger NUmber: "+Num);
+        for(int i=1;i<=Num;i++){
+            int factor = a*i;
+            if(factor%b==0){
+                System.out.println("LCM: "+factor);
+                break;
+            }
+        }
+    }
+}
+
+*/
+
+/*
+Using for loop, but tini tiny more efficient???!
+
+public class Main{
+    public static void main(String[]args){
+        int a= 12, b = 14;
+        int NumA;
+        int NumB;
+        if(a>b){
+            NumA = a;
+            NumB = b;
+        }else{
+            NumA = b;
+            NumB = a;
+        }
+        System.out.println("Bigger NUmber: "+NumA);
+        System.out.println("Smaller NUmber: "+NumB);
+        for(int i=1;i<=NumA;i++){
+            int factor = NumA*i;
+            if(factor%NumB==0){
+                System.out.println("LCM: "+factor);
+                break;
+            }
+        }
+    }
+}
+
+
+
+*/

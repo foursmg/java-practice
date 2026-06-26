@@ -54,7 +54,11 @@ gcd(3,13) = 3 -> 2
 
 */
 
+//---------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Without using function / in main method
 
 public class main{
     public static void main(String[]args){
@@ -74,5 +78,64 @@ public class main{
         System.out.print(gcd);
     }
 }
+
+*/
+
+//---------------------------------------------------------------------------------------------------------------------
+
+/*
+
+Using function - But getting the smaller of a and using ternary operator instead of creating and calling
+a separate function for it.
+
+public class Main{
+    public static void main(String[]args){
+
+        int a = 20, b = 28;
+
+        int GCD = gcd(a,b);
+        System.out.println("GCD: "+ GCD);
+    }
+    public static int gcd(int a,int b){
+        int gcd = 1;
+        int i=2;
+        int SNum = a>b ? b : a;
+        while(i<SNum){
+            if(a%i==0 && b%i==0){
+                gcd = i;
+            }
+            i++;
+        }
+        return gcd;
+    }
+}
+
+*/
+
+//-------------------------------------------------------------------------------------------------------------------
+
+
+/*
+
+Using for Loop
+
+public class Main{
+    public static void main(String[]args){
+
+        int a=20, b = 28;
+
+        int gcd=1;
+
+        int SmallNum = a>b ? b : a;
+        for(int i=2;i<SmallNum;i++){
+            if(a%i==0 && b%i==0){
+                gcd = i;
+            }
+        }
+        System.out.println("GCD of "+a+" & "+b+" : "+gcd);
+    }
+}
+
+
 
 */

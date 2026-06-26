@@ -27,3 +27,19 @@ public class B5_rectangleArea {
 //float area= (float)1/2*(l*b);   this one also
 //float area= (float)(b*h)/2;            works
 
+/*
+
+If even one operand is float or double, Java performs floating-point division.
+If both operands are integral types (byte, short, int, long), Java performs integer division.
+
+Java promotes the int to a double (not a float) if a double and an int are used together,
+ but it will promote the int to a float if a float and an int are used together
+
+ Example : If either operand is a double, the other operand is converted to a double.
+ Otherwise, if either operand is a float, the other operand is converted to a float.
+ Otherwise, if either operand is a long, the other operand is converted to a long.
+ Otherwise, both operands are converted to an int (this applies to byte, short, and char types).
+
+
+
+*/

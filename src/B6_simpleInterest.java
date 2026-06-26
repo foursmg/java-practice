@@ -11,7 +11,7 @@ public class B6_simpleInterest {
         System.out.println("Enter the Rate: ");
         double r= input.nextDouble();
 
-        double si= (p*r*t)/100;
+        double si= (p*r*t)/100;    // or double si = (1d/100)*p*r;
         System.out.println("Simple Interest is: "+si);
 
         //Amount -> principle +interest generated
