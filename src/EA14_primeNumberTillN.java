@@ -1,4 +1,4 @@
-//prime number till n
+//prime number till n Using function
 public class EA14_primeNumberTillN {
     public static void main(String[]args){
         int n=100;
@@ -27,6 +27,8 @@ public class EA14_primeNumberTillN {
 
 
 /*
+
+//Prime Number till N (without Function)
 
 public class prime{
     public static void main(String[]args){
